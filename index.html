@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+          content="Descobre os animais, a biodiversidade e formas de proteger a natureza.">
+
+    <meta name="author" content="Nome do aluno">
+
+    <title>Vida Selvagem | Animais e Natureza</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Fonte gratuita: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Ficheiro CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Vida Selvagem
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Abrir menu de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#animais">Animais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biodiversidade">Biodiversidade</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proteger">Como ajudar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fontes">Fontes</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- SECÇÃO INICIAL -->
+        <header id="inicio" class="hero">
+            <div class="hero-overlay">
+                <div class="container text-center text-white">
+                    <p class="etiqueta">O PLANETA É A NOSSA CASA</p>
+
+                    <h1>Descobre a beleza da natureza</h1>
+
+                    <p class="hero-text">
+                        Conhece os animais, explora os seus habitats
+                        e descobre como podemos proteger a vida selvagem.
+                    </p>
+
+                    <a href="#animais" class="btn btn-success btn-lg">
+                        Explorar animais
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- INTRODUÇÃO -->
+        <section class="container secao" id="sobre">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <p class="subtitulo">O MUNDO NATURAL</p>
+
+                    <h2>Uma natureza cheia de vida</h2>
+
+                    <p>
+                        A natureza é essencial para a vida na Terra.
+                        As florestas, os oceanos e os rios são o lar
+                        de milhões de espécies de seres vivos.
+                    </p>
+
+                    <p>
+                        Conhecer os animais e os seus habitats ajuda-nos
+                        a compreender a importância de preservar
+                        a biodiversidade e os recursos naturais.
+                    </p>
+
+                    <a href="#biodiversidade" class="link-verde">
+                        Descobre porque é importante →
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="Imagens/floresta.jpg"
+                         class="img-fluid imagem-intro"
+                         alt="Floresta verde com árvores e vegetação">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERIA DE ANIMAIS -->
+        <section id="animais" class="secao fundo-claro">
+            <div class="container">
+
+                <div class="text-center cabecalho-secao">
+                    <p class="subtitulo">CONHECE AS ESPÉCIES</p>
+                    <h2>Habitantes do nosso planeta</h2>
+                    <p>
+                        Cada animal desempenha um papel importante
+                        no equilíbrio dos ecossistemas.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- LEÃO -->
+                    <div class="col-md-6 col-lg-3">
+                        <article class="card animal-card h-100">
+                            <img src="Imagens/leao.jpg"
+                                 class="card-img-top"
+                                 alt="Leão no seu habitat natural"
+                                 loading="lazy">
+
+                            <div class="card-body">
+                                <p class="categoria">MAMÍFERO</p>
+                                <h3 class="card-title">Leão</h3>
+                                <p class="card-text">
+                                    Um grande felino que vive em partes
+                                    de África e desempenha um papel
+                                    importante nas cadeias alimentares.
+                                </p>
+                                <a href="https://www.worldwildlife.org/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="link-verde">
+                                    Saber mais →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- RAPOSA -->
+                    <div class="col-md-6 col-lg-3">
+                        <article class="card animal-card h-100">
+                            <img src="Imagens/raposa.jpg"
+                                 class="card-img-top"
+                                 alt="Raposa de pelo alaranjado"
+                                 loading="lazy">
+
+                            <div class="card-body">
+                                <p class="categoria">MAMÍFERO</p>
+                                <h3 class="card-title">Raposa</h3>
+                                <p class="card-text">
+                                    Um animal adaptável, conhecido
+                                    pelos sentidos apurados e pela
+                                    capacidade de encontrar alimento.
+                                </p>
+                                <a href="https://www.iucnredlist.org/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="link-verde">
+                                    Saber mais →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- TARTARUGA -->
+                    <div class="col-md-6 col-lg-3">
+                        <article class="card animal-card h-100">
+                            <img src="Imagens/tartaruga.jpg"
+                                 class="card-img-top"
+                                 alt="Tartaruga marinha a nadar no oceano"
+                                 loading="lazy">
+
+                            <div class="card-body">
+                                <p class="categoria">RÉPTIL</p>
+                                <h3 class="card-title">Tartaruga-marinha</h3>
+                                <p class="card-text">
+                                    Habita os oceanos e enfrenta ameaças
+                                    como a poluição por plástico e a
+                                    perda de locais de nidificação.
+                                </p>
+                                <a href="https://www.worldwildlife.org/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="link-verde">
+                                    Saber mais →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- ABELHA -->
+                    <div class="col-md-6 col-lg-3">
+                        <article class="card animal-card h-100">
+                            <img src="Imagens/abelha.jpg"
+                                 class="card-img-top"
+                                 alt="Abelha a recolher néctar numa flor"
+                                 loading="lazy">
+
+                            <div class="card-body">
+                                <p class="categoria">INSETO</p>
+                                <h3 class="card-title">Abelha</h3>
+                                <p class="card-text">
+                                    Um importante polinizador que
+                                    contribui para a reprodução de
+                                    muitas plantas e culturas agrícolas.
+                                </p>
+                                <a href="https://www.fao.org/"
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="link-verde">
+                                    Saber mais →
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BIODIVERSIDADE -->
+        <section id="biodiversidade" class="container secao">
+            <div class="text-center cabecalho-secao">
+                <p class="subtitulo">EQUILÍBRIO NATURAL</p>
+                <h2>Porque precisamos da biodiversidade?</h2>
+                <p>
+                    A variedade de seres vivos contribui para
+                    ecossistemas saudáveis e resistentes.
+                </p>
+            </div>
+
+            <div class="row g-4 text-center">
+
+                <div class="col-md-4">
+                    <div class="bloco-info">
+                        <div class="simbolo" aria-hidden="true">🌳</div>
+                        <h3>Florestas</h3>
+                        <p>
+                            Acolhem inúmeras espécies, armazenam carbono
+                            e ajudam a regular o clima.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="bloco-info">
+                        <div class="simbolo" aria-hidden="true">🌊</div>
+                        <h3>Oceanos</h3>
+                        <p>
+                            Sustentam uma grande diversidade de vida
+                            e são fundamentais para o planeta.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="bloco-info">
+                        <div class="simbolo" aria-hidden="true">🌼</div>
+                        <h3>Polinizadores</h3>
+                        <p>
+                            Abelhas e outros animais ajudam muitas
+                            plantas a produzir sementes e frutos.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TABELA -->
+        <section class="secao fundo-claro">
+            <div class="container">
+
+                <div class="text-center cabecalho-secao">
+                    <p class="subtitulo">GUIA DA NATUREZA</p>
+                    <h2 id="habitats">Animais e habitats</h2>
+                    <p>
+                        Alguns exemplos de espécies e dos ambientes
+                        onde podem viver.
+                    </p>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover align-middle">
+                        <thead>
+                            <tr>
+                                <th scope="col">Animal</th>
+                                <th scope="col">Grupo</th>
+                                <th scope="col">Habitat</th>
+                                <th scope="col">Alimentação</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Leão</td>
+                                <td>Mamífero</td>
+                                <td>Savanas e outros habitats africanos</td>
+                                <td>Carnívoro</td>
+                            </tr>
+                            <tr>
+                                <td>Raposa</td>
+                                <td>Mamífero</td>
+                                <td>Florestas, campos e outros ambientes</td>
+                                <td>Omnívora</td>
+                            </tr>
+                            <tr>
+                                <td>Tartaruga-marinha</td>
+                                <td>Réptil</td>
+                                <td>Oceanos</td>
+                                <td>Varia consoante a espécie</td>
+                            </tr>
+                            <tr>
+                                <td>Abelha</td>
+                                <td>Inseto</td>
+                                <td>Jardins, campos e outros habitats</td>
+                                <td>Néctar e pólen</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="nota">
+                    Nota: a alimentação e o habitat podem variar
+                    consoante a espécie.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- COMO PROTEGER -->
+        <section id="proteger" class="container secao">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6">
+                    <p class="subtitulo">PEQUENAS AÇÕES, GRANDE IMPACTO</p>
+                    <h2>Como podes ajudar a natureza?</h2>
+
+                    <ul class="lista-acoes">
+                        <li>Reduzir o uso de plásticos descartáveis.</li>
+                        <li>Separar os resíduos para reciclagem.</li>
+                        <li>Respeitar os animais nos seus habitats.</li>
+                        <li>Evitar desperdiçar água e energia.</li>
+                        <li>Participar em iniciativas de conservação.</li>
+                    </ul>
+
+                    <a href="https://www.icnf.pt/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn btn-success mt-3">
+                        Conhecer o ICNF
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="caixa-verde">
+                        <h3>O futuro também depende de ti.</h3>
+                        <p>
+                            Proteger a natureza começa com escolhas
+                            responsáveis no dia a dia. Cada gesto
+                            pode contribuir para um planeta mais saudável.
+                        </p>
+                        <a href="https://www.unep.org/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="link-verde">
+                            Descobrir iniciativas ambientais →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FONTES E CRÉDITOS -->
+        <section id="fontes" class="secao fundo-claro">
+            <div class="container">
+                <div class="text-center cabecalho-secao">
+                    <p class="subtitulo">APRENDE MAIS</p>
+                    <h2>Fontes e recursos</h2>
+                    <p>
+                        Consulta organizações dedicadas à conservação
+                        da natureza e à proteção das espécies.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <a class="fonte-link"
+                           href="https://www.icnf.pt/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Instituto da Conservação da Natureza
+                            e das Florestas (ICNF) ↗
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="fonte-link"
+                           href="https://www.worldwildlife.org/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            World Wildlife Fund (WWF) ↗
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="fonte-link"
+                           href="https://www.unep.org/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Programa das Nações Unidas para o Ambiente ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape text-center">
+        <div class="container">
+            <p class="fw-bold mb-2">Vida Selvagem</p>
+            <p class="mb-2">
+                Projeto escolar de HTML, CSS e Bootstrap 5.
+            </p>
+            <p class="mb-2">
+                <a href="#inicio">Voltar ao início ↑</a>
+            </p>
+            <small>
+                © 2026 Vida Selvagem. Fotografias sujeitas
+                às respetivas licenças.
+            </small>
+        </div>
+    </footer>
+
+    <!-- JavaScript do Bootstrap: menu para dispositivos móveis -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
